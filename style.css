@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+.main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(177, 218, 177);
+}
+.pannel {
+  width: 70%;
+  height: 70%;
+  border-radius: 10px;
+  background-color: rgb(133, 218, 133);
+  overflow: hidden;
+}
+.pannel-top {
+  display: flex;
+  width: 100%;
+  height: 100px;
+  background-color: rgb(179, 240, 179);
+}
+.elemet {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 160px;
+  gap: 20px;
+}
+.box {
+  padding: 20px;
+  background-color: wheat;
+  border-radius: 5px;
+  color: black;
+  font-size: 22px;
+  font-weight: bold;
+}
+.elemet h4 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 30px;
+  font-weight: 700;
+}
+.pan-b {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10;
+  width: 100%;
+  height: calc(100% - 100px);
+  padding: 10px;
+}
+.bubble {
+  display: flex;
+  margin: 0 4px;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  padding: 20px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: rgb(54, 211, 54);
+  color: black;
+  font: 30px;
+  font-weight: 700;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.bubble:hover {
+  background-color: greenyellow;
+  cursor: pointer;
+}
